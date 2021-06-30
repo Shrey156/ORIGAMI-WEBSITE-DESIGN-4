@@ -1,0 +1,89 @@
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin: 10px;
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.oragami{
+    border-radius: 20px;
+    background-color:#00ade2;
+
+    width: 310px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #88ddf5;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #0011fd;
+    padding: 20px;
+}
+
+.bodyimg{
+    position: relative;
+    text-align: center;
+}
+
+.introductionHead{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 34%;  
+    font-style: italic; 
+}
+
+.introduction{
+    position: absolute;
+    color: white;
+    top:40%;
+    left:1%;
+    font-style:italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #88ddf5;
+    margin: 0px;
+}
+a{
+    text-decoration:none;
+}
+a:link{ 
+    color: #000fe2; 
+} 
+
+a:visited{ 
+    color:#3f4ada 
+} 
+
+.oragami:hover{ 
+    transform:scale(1.2);
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 30px; 
+    margin-top: 10%;
+   
+}
+
+h1{
+    text-align: center;
+    color:#000fe2; 
+    text-decoration: underline;
+}
